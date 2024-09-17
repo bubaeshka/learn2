@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         TestClassA ta = new TestClassA(3,"Boroda");
         ta.setA(18);
+        ta.setB(ta.getB()+" Iz vati");
         System.out.println(ta.toString());
 
     }
