@@ -1,3 +1,5 @@
+package org.example;
+
 public class TestClassA {
     private int a;
     private String b;
@@ -25,7 +27,7 @@ public class TestClassA {
 
     @Override
     public String toString() {
-        return "TestClassA{" +
+        return "org.example.TestClassA{" +
                 "a=" + a +
                 ", b='" + b + '\'' +
                 '}';
